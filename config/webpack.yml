@@ -1,0 +1,9 @@
+# Reference: https://webpack.js.org/configuration/
+default: &default
+  # ...
+
+  packs:
+    - application
+    - react_components # Add this line to include your React components
+
+  # ...
